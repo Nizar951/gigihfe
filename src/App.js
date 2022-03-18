@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
-
+const key = process.env.REACT_APP_GIPHY_KEY;
+console.log(key);
 export default App;
